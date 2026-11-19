@@ -7,7 +7,7 @@ deterministic: it decodes the finished image from entry.png.b64, the
 single-line base64 of entry.png shipped in this repository (the PNG
 itself cannot be pushed through the GitHub App's text-only snapshot
 push, so it travels as text). The image was drawn by draw_entry.py
-from the 18 November 2026 news; decoding the same bytes gives the
+from the 19 November 2026 news; decoding the same bytes gives the
 same output on every run.
 """
 import base64
